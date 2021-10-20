@@ -11,7 +11,7 @@ class Calculadora {
 
     reset() {this.historico =new Map()}
 
-    list() {console.log(this.historico)}
+    list() {return this.historico}
 
     registro(operacao, valor) {this.historico.set(operacao, valor)}
 
@@ -73,11 +73,11 @@ class CalculadoraDivi extends Calculadora{
 
 // let calcTeste = new CalculadoraSubt();
 
-let calcTeste = new CalculadoraMultip();
+// let calcTeste = new CalculadoraMultip();
 
 // let calcTeste = new CalculadoraDivi();
 
-calcTeste.enter(5);
-calcTeste.enter(5);
-console.log(calcTeste.equals());
-console.log(calcTeste.list());
+// calcTeste.enter(5);
+// calcTeste.enter(5);
+// console.log(calcTeste.equals());
+// console.log(calcTeste.list());
