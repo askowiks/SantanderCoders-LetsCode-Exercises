@@ -20,7 +20,7 @@
     <div>
         <h2>Informe um valor</h2>
         <input id="valores" type="number">
-        <input type="button" value="Enter">
+        <input type="button" value="Enter" name="enter">
     </div>
     <div>
         <h2 id='total'> Resultado:<span>0</span></h2>
@@ -29,6 +29,8 @@
     <script>
         let total = 0;
 
+        const buttonEnter = document.querySelector('button[name="enter"]')
+        buttonEnter.addEventListener('click', enter())
 
         const selectOperator = document.querySelector('input[id="soma"]:checked')
             console.log(selectOperator)
