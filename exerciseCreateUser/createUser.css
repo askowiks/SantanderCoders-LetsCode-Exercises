@@ -1,0 +1,70 @@
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+
+body {
+    background: rgb(0, 0, 0);
+    color: aliceblue;
+    font-family: sans-serif;
+    margin: 2em;
+    display: flex;
+    flex-direction: column;
+  
+}
+
+form {
+    /* border: 1px solid white; */
+    width: 50%;
+    margin: auto;
+    text-align: center;
+    border-radius: 5px;
+    background-color: rgb(78, 5, 54);
+    padding: 1em;
+}
+
+form h1 {
+    font-size: larger;
+    margin: 5px;
+    text-shadow: whitesmoke;
+}
+
+#lista-usuarios {
+    width: 50%;
+    margin: auto;
+    text-align: center;
+    background-color: rgb(93, 11, 104);
+    border-radius: 5px;
+    padding: 1em;
+}
+
+#lista-usuarios h1 {
+    font-weight: bold;
+    text-align: center;
+    margin: 1em;
+    text-decoration-line: underline;
+    
+}
+
+#container-lista-usuarios {
+    display: flex;
+    flex-direction: column;
+    margin: 1em;
+    margin-top: 1em;
+}
+
+.item-usuario button {
+    display: inline-block;
+    margin: 5px;
+}
+
+hr {
+    border: 1px solid rgb(178, 93, 228);
+    width: 50%;
+    
+}
+
+li {
+    padding: 2px;
+}
