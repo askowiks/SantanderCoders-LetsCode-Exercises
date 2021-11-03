@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="calculator.js"></script>
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="calc.css">
+
+    <title>Inimigos da HP</title>
+</head>
+<body>
+    <h1>Let's Calc</h1>
+   <hr>
+    <div class="entrada">
+        <h2>Informe os valores</h2>
+        <input id="valorDigitado" type="number">
+        <input type="button" value="Enter" name="enter" onclick="acumular()">
+
+    </div>
+   
+    <h2>Selecione a operação</h2>
+    <div class="botoes">
+        <input type="button" name="soma" value="+" onclick="soma()">
+        <input type="button" name="subt" value="-" onclick="subt()">
+        <input type="button" name="mult" value="*" onclick="mult()">
+        <input type="button" name="divi" value="/" onclick="divi()">
+
+    </div>
+    <hr>
+    <div>
+        <h2 id='total'> Resultado:<span id="result"></span></h2>
+    </div>
+
+    
+</body>
+</html>
